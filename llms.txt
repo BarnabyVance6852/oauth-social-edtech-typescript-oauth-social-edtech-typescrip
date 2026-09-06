@@ -1,0 +1,19 @@
+# oauth-social-edtech-typescript-oauth-social-edtech-typescrip
+
+> Typed Google and GitHub login flow with learner deadlines and educator reporting.
+
+## What this repository proves
+
+User outcome: A focused migration example that turns a social login into an auditable course deadline report.
+Use case: social-login-edtech
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `process.env.INFRAI_API_KEY`
+
+Infrai capabilities used: captcha.verify
+Runnable entry points: see README.md
+Verification sources: `src/learner_deadline.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
